@@ -1,8 +1,5 @@
 <?php
-	if (isset($_GET['viewInfo'])) {
-		phpinfo();
-	} else {
-		?>
+	
 		<html>
 			<head>
 				<title>Test Page</title>
@@ -20,5 +17,5 @@
 			</body>
 		</html>
 		<?php
-	}
+	
 ?>
